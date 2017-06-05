@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<!--	<script type="text/javascript" src="mine.js"></script>	-->
+		// <script type="text/javascript" src="mine.js"></script>	
 		<!--<script type="text/javascript" src="https://raw.githubusercontent.com/SudheerPonnala/LogicalMethods/master/mine.js"><-->
 		<script type="text/javascript" src="https://rawgit.com/SudheerPonnala/LogicalMethods/master/mine.js"></script>
 		<script>
-			
+			//Comparing array of strings and array of objects to form new object
 			obj1 = ["A","B","C","D","1","2"];
 			obj2 = [{"name":"A","id":"1"},{"name":"B","id":"2"},{"name":"C","id":"3"},{"name":"Z","id":"4"},{"name":"E","id":"5"},{"name":"F","id":"6"}];
 			var finalArray = mapWithKeys(obj1,obj2);
 			console.log("Formatted Object: ",finalArray);
+			//Comparing array of strings and array of objects to form new object
 
+
+			//Counting occurence of each word in a given string
 			var localString = "I am sudheer i am from warangal i am a software developer i like this job";
 			console.log(getWordsCount(localString));
+			//Counting occurence of each word in a given string
+
+
+			//Method to sort array in Ascending order
+			console.log(arrayAscending([20, 30, 1, 0, 21, 11, 4, 100, 10]));
+			//Method to sort array in Ascending order
+
+
+			//Method to sort array in Decending order
+			console.log(arrayDescending([20, 30, 1, 0, 21, 11, 4, 100, 10]));
+			//Method to sort array in Descending order
+
+
 
 
 		</script>

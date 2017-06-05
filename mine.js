@@ -1,3 +1,5 @@
+
+//Comparing array of strings and array of objects to form new object
 function mapWithKeys(obj1,obj2) {
 objTemp = [];
 for(var i=0;i<obj1.length;i++){
@@ -14,8 +16,10 @@ count =0;
 }
 return objTemp;  
 }
+//Comparing array of strings and array of objects to form new object
 
 
+//Counting occurence of each word in a given string
 function getWordsCount(str){
 	var obj = {};
 	var str = str.split(" ");
@@ -24,3 +28,19 @@ function getWordsCount(str){
 	}
 	return obj;
 }
+//Counting occurence of each word in a given string
+
+
+function arrayDescending(arr){
+  arr.sort(function(a,b){
+    return (b-a);
+  });
+  return arr;
+}
+
+function arrayAscending(arr){
+  arr.sort(function(a,b){
+    return (a-b);
+  });
+  return arr;
+} 
