@@ -14,3 +14,13 @@ count =0;
 }
 return objTemp;  
 }
+
+
+function getWordsCount(str){
+	var obj = {};
+	var str = str.split(" ");
+	for(var i=0;i<str.length;i++){
+		obj[str[i]] = obj[str[i]] ? obj[str[i]]+=1 : 1;
+	}
+	return obj;
+}
