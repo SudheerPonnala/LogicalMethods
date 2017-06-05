@@ -31,16 +31,21 @@ function getWordsCount(str){
 //Counting occurence of each word in a given string
 
 
+//Method to sort array in Ascending order
 function arrayDescending(arr){
   arr.sort(function(a,b){
     return (b-a);
   });
   return arr;
 }
+//Method to sort array in Ascending order
 
+
+//Method to sort array in Decending order
 function arrayAscending(arr){
   arr.sort(function(a,b){
     return (a-b);
   });
   return arr;
 } 
+//Method to sort array in Decending order
