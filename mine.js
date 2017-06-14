@@ -49,3 +49,14 @@ function arrayAscending(arr){
   return arr;
 } 
 //Method to sort array in Ascending order
+
+
+//Program to find given string is Polindrome or not
+function checkPolindrome(str){
+    if(str === str.split('').reverse().join('')){
+        return true;
+    }else{
+        return false;
+    }
+}
+//Program to find given string is Polindrome or not
