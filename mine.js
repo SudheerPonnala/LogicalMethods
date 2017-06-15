@@ -60,3 +60,17 @@ function checkPolindrome(str){
     }
 }
 //Program to find given string is Polindrome or not
+
+
+//Method to find missing number in an array
+function missingNumber(arr){
+  arr = arr.sort(function(a,b){
+    return a-b;
+  });
+  var arraySum = arr.reduce(function(total,num){
+          return total+=num;
+         });
+  var firstNtotal = (arr[arr.length-1])*((arr[arr.length-1]+1)/2);
+  return firstNtotal-arraySum;
+}
+//Method to find missing number in an array
