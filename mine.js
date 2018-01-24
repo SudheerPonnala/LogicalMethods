@@ -96,3 +96,16 @@ function getOddarray(arr){
     })
 }
 //Method to print odd nos array from the array
+
+
+//Method to get all possible generated string from given string
+function getAllstrings(str){
+    var stringArray = [];
+    for(i=0;i<str.length;i++){
+      for(j=1;j<=str.length-i;j++){
+          stringArray.push(str.substr(i,j));
+      }
+    }
+    return stringArray;
+}
+//Method to get all possible generated string from given string
