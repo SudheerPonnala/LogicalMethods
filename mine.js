@@ -74,3 +74,25 @@ function missingNumber(arr){
   return firstNtotal-arraySum;
 }
 //Method to find missing number in an array
+
+
+//Method to print even nos array from the array
+function getEvenarray(arr){
+    return arr.filter(function(value, index, allArray){
+        if(value%2 == 0){
+            return true;
+        }
+    })
+}
+//Method to print even nos array from the array
+
+
+//Method to print odd nos array from the array
+function getOddarray(arr){
+    return arr.filter(function(value, index, allArray){
+        if(value%2 != 0){
+            return true;
+        }
+    })
+}
+//Method to print odd nos array from the array
