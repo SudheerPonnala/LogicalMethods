@@ -109,3 +109,13 @@ function getAllstrings(str){
     return stringArray;
 }
 //Method to get all possible generated string from given string
+
+//Program to print Fibonacci series
+function getFibonacciSeries(value){
+  var finalSeries = [0,1];
+  for(var i=2;i<=value;i++){
+      finalSeries[i] = finalSeries[i-2] + finalSeries[i-1];
+  }
+  return finalSeries;
+}
+//Program to print Fibonacci series
